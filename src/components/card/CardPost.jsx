@@ -8,8 +8,8 @@ export default function CardPost({ body, title, userId }) {
         color: "red",
       }}
     >
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
-      {/* <h1>{userId}</h1> */}
+      {/* <h1 class="text-3xl font-bold underline">Hello world!</h1> */}
+      <h1>{userId}</h1>
       <h3>{title}</h3>
       <p>{body}</p>
     </div>

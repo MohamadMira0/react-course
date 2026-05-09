@@ -1,4 +1,5 @@
-// import "./App.css";
+import "./components/card/card.css";
+import "./App.css";
 // import Navbar from "./components/Navbar";
 // import Nancy, { SayHell as Ahemd, SayHi } from "./components/sayHello";
 // import { SayHello } from "./components/SayHello";
@@ -6,7 +7,8 @@
 // import AddTodo from "./components/AddTodo";
 
 // import AddTask from "./components/AddTask";
-import AddTask from "./components/AddTask";
+// import AddTask from "./components/AddTask";
+import Posts from "./components/Posts";
 
 function App() {
   // const [state, setState] = useState(init)
@@ -42,7 +44,8 @@ function App() {
       <span>current number is {state}</span> */}
 
       {/* <AddTodo /> */}
-      <AddTask />
+      <Posts />
+      {/* <AddTask /> */}
       {/* <Hassan /> */}
     </>
   );

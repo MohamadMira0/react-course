@@ -1,5 +1,13 @@
 import "./components/card/card.css";
 import "./App.css";
+// import RefCom from "./RefCom";
+// import MemoFile from "./MemoFile";
+import MemoCallbackConsoleDemos from "./MemoCallbackConsoleDemo";
+import MemoFile from "./MemoFile";
+import MemoCallbackFile from "./MemoCallbackFile";
+// import Posts from "./Posts";
+// import Ref from "./Ref";
+// import ProductList from "./MemoFun";
 // import Navbar from "./components/Navbar";
 // import Nancy, { SayHell as Ahemd, SayHi } from "./components/sayHello";
 // import { SayHello } from "./components/SayHello";
@@ -8,7 +16,7 @@ import "./App.css";
 
 // import AddTask from "./components/AddTask";
 // import AddTask from "./components/AddTask";
-import Posts from "./components/Posts";
+// import Posts from "./components/Posts";
 
 function App() {
   // const [state, setState] = useState(init)
@@ -22,6 +30,9 @@ function App() {
   // console.log(z);
   return (
     <>
+      {/* <h1 className="text-3xl font-bold underline text-red-500">
+        Hello world!
+      </h1> */}
       {/* <Navbar />
       <Nancy name="test" email="mira@gmail.com" />
       <SayHi name="HI" email="mira@gmail.com" />
@@ -44,9 +55,17 @@ function App() {
       <span>current number is {state}</span> */}
 
       {/* <AddTodo /> */}
-      <Posts />
+      {/* <Posts /> */}
+      {/* <Posts /> */}
+      {/* <Ref /> */}
+      {/* <ProductList /> */}
       {/* <AddTask /> */}
       {/* <Hassan /> */}
+
+      {/* <RefCom /> */}
+      {/* <MemoFile /> */}
+      {/* <MemoCallbackConsoleDemos /> */}
+      <MemoCallbackFile />
     </>
   );
 }
